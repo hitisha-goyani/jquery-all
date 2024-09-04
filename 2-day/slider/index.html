@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-day</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+  
+
+</head>
+<body>
+   
+    
+  
+    <div class="section gray">
+        <div class="container2">
+			<div class="slider responsive">
+				<div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/1.jpg"/>
+              <p class="text">Rose</p>
+              <p class="text1"> The rose is a type of flowering shrub. Its name comes from the Latin word Rosa. </p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/2.jpg"/>
+              <p class="text">Sunflower</p>
+              <p class="text1"> The common sunflower is a species of large annual forb of the daisy family Asteraceae.</p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/daisy-flower-spring-marguerite-67857 (1).jpeg"/>
+            <p class="text">Spring Marguerite</p>
+            <p class="text1">They are part of the wider daisy family and look very similar to Chrysanthemums.</p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/lotus.jpeg"/>
+            <p class="text">lotus</p>
+            <p class="text1">Lotus flowers appear most prominently in wetlands and usually grow in mud. </p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/lilyjpg.jpg"/>
+            <p class="text">Lily</p>
+            <p class="text1">Lilies are usually raised from bulbs, but they can be grown from seed.</p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/tulip.jpeg"/>
+            <p class="text">Tulip</p>
+            <p class="text1">ulips are spring-blooming perennial herbaceous bulbiferous geophytes in the Tulipa genus. </p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/poppy.jpg">
+              <p class="text">Poppy</p>
+              <p class="text1">The flowers of most poppy species are attractive and are widely cultivated as annual or perennial.</p>
+          </div>
+				</div>
+        <div class="main-slide">
+					<div class="sub-slider">
+            <img src="imgs/th.jpg">
+              <p class="text">Gerbera</p>
+              <p class="text1">Gerbera species are tufted, caulescent, perennial herbs, often with woolly crown, up to 80 cm high.</p>
+          </div>
+				</div>
+			
+			
+			
+			
+			
+			</div>
+        </div>
+
+      </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: true,
+            speed: 1000,
+            autoplayDelay:500,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  infinite: true,
+                  dots: true
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ]
+          });
+				
+    </script>
+    <script>
+        // $(".btn1").click(function(){
+        //     $("body").addClass("theme");
+        //     $(".btn1").hide();
+        //     $(".btn2").show();
+
+        // })
+        // $(".btn2").click(function(){
+        //     $("body").removeClass("theme");
+        //     $(".btn2").hide();
+        //     $(".btn1").show();
+
+        // })
+
+    </script>
+    
+</body>
+</html>
